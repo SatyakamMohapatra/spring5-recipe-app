@@ -37,4 +37,7 @@ public class RecipeServiceImplTest {
         assertEquals(1,recipes.size());
         final Iterable<Recipe> all = verify(recipeRepository, times(1)).findAll();
     }
+
+    @Test
+    public void getTest() {}
 }
